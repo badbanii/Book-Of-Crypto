@@ -1,8 +1,9 @@
 package com.controversial.bookofcrypto.domain.use_case.get_coins
 
 import com.controversial.bookofcrypto.common.Resource
+import com.controversial.bookofcrypto.data.remote.dto.toCoin
 import com.controversial.bookofcrypto.domain.model.Coin
-import com.controversial.bookofcrypto.domain.model.toCoin
+
 import com.controversial.bookofcrypto.domain.repository.CoinRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
@@ -22,7 +23,7 @@ class GetCoinsUseCase @Inject constructor(
         }catch (e: HttpException)
         {
             emit(Resource.Error(e.localizedMessage?:"An unexpected error ocurred"))
-        }catch (e: IOException)
+        }catch (e:IOException)
         {
             emit(Resource.Error("Couldn't reach server.Check your internet connection"))
         }
