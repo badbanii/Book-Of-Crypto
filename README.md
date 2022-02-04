@@ -1,19 +1,19 @@
 <h1 align="center">Welcome to Book of Crypto</h1>
 <h3 align="center">Cryptocurrency information.Implementation details:</h3>
 
-- 🔭 Clean arhitecture **(use cases)**
+- 🪛 Kotlin **(coroutines,flows)**
 
-- 🌱 Dagger Hilt **(dependency injection)**
+- 📥 Clean arhitecture **(use cases)**
 
-- 👯 MVVM **(model-view-viewmodel)**
+- 🗡️ Dagger Hilt **(dependency injection)**
 
-- 🤝 Jetpack Compose **(UI/UX)**
+- 🧾 MVVM **(model-view-viewmodel)**
 
-- 👨‍💻 REST API [(get JSON for every currency)]((get JSON for every currency))
+- 🎨 Jetpack Compose **(UI/UX)**
 
-- 💬 RetroFit **(API for Crypto Information)**
+- 🌐 RetroFit & REST APIs & OkHTTP3 **(@GET JSON for every currency)**
 
-- 📫 Optimized **(MultiDex,shrinked resources,minify,etc)**
+- 📊 Optimized **(MultiDex,shrinked resources,minify,etc)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
