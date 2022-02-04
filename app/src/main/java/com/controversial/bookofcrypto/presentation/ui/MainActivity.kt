@@ -9,6 +9,7 @@ import androidx.compose.material.Surface
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.controversial.bookofcrypto.DexManager
 import com.controversial.bookofcrypto.R
 import com.controversial.bookofcrypto.presentation.Screen
 import com.controversial.bookofcrypto.presentation.coin_detail.CoinDetailScreen
