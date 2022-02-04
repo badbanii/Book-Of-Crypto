@@ -1,7 +1,15 @@
 <h1 align="center">Welcome to Book of Crypto</h1>
-<h3 align="center">Cryptocurrency details,implemented using:</h3>
+<h3 align="center">Cryptocurrency details.Implementation details:</h3>
 
 - 🔭 Clean arhitecture **(use cases)**
+
+- 🌱 Dagger Hilt **(dependency injection)**
+
+- 👯 MVVM **(model-view-viewmodel)**
+
+- 🤝 Jetpack Compose **(UI/UX)**
+
+- 💬 RetroFit **(API for Crypto Information)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
