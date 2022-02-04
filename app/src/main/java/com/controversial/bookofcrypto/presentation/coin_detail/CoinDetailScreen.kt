@@ -38,13 +38,15 @@ fun CoinDetailScreen(
                         Text(
                             text = "${coin.rank}. ${coin.name} (${coin.symbol})",
                             style = MaterialTheme.typography.h2,
-                            modifier = Modifier.weight(8f)
+                            modifier = Modifier.weight(8f),
+                            color = Color(0xffffd300)
                         )
                         Text(
-                            text = if(coin.isActive) "active" else "inactive",
-                            color = if(coin.isActive) Color.Green else Color.Red,
+                            text = if (coin.isActive) "available" else "closed",
+                            color = if (coin.isActive) Color(0xff97e34b) else Color(0xfffa00ab) ,
                             fontStyle = FontStyle.Italic,
                             textAlign = TextAlign.End,
+
                             modifier = Modifier
                                 .align(Alignment.CenterVertically)
                                 .weight(2f)
@@ -53,18 +55,22 @@ fun CoinDetailScreen(
                     Spacer(modifier = Modifier.height(15.dp))
                     Text(
                         text = coin.description,
-                        style = MaterialTheme.typography.body2
+                        style = MaterialTheme.typography.body2,
+                        color = Color(0xffffd300)
+
                     )
                     Spacer(modifier = Modifier.height(15.dp))
                     Text(
                         text = "Tags",
-                        style = MaterialTheme.typography.h3
+                        style = MaterialTheme.typography.h3,
+                        color = Color(0xffffd300)
                     )
                     Spacer(modifier = Modifier.height(15.dp))
                     FlowRow(
                         mainAxisSpacing = 10.dp,
                         crossAxisSpacing = 10.dp,
-                        modifier = Modifier.fillMaxWidth()
+                        modifier = Modifier.fillMaxWidth(),
+
                     ) {
                         coin.tags.forEach { tag ->
                             CoinTag(tag = tag)
@@ -73,12 +79,15 @@ fun CoinDetailScreen(
                     Spacer(modifier = Modifier.height(15.dp))
                     Text(
                         text = "Team members",
-                        style = MaterialTheme.typography.h3
+                        style = MaterialTheme.typography.h3,
+                        color = Color(0xffffd300)
+
                     )
                     Spacer(modifier = Modifier.height(15.dp))
                 }
                 items(coin.team) { teamMember ->
                     TeamListItem(
+
                         teamMember = teamMember,
                         modifier = Modifier
                             .fillMaxWidth()

@@ -2,7 +2,6 @@ package com.controversial.bookofcrypto.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val DarkGray = Color(0xFF202020)
-val MediumGray = Color(0xFF505050)
-val ColorPrimary = Color(0xFF08FF04)
-val TextWhite = Color(0xFFEEEEEE)
+val Purple = Color(0xFFB026FF)
+val ColorPrimary = Color(0xffffd300)
+val Black = Color(0xFF000000)
