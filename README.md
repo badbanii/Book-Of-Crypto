@@ -1,5 +1,7 @@
-<h1 align="center">Hi 👋, I'm Vlad</h1>
-<h3 align="center">A passionate Android developer</h3>
+<h1 align="center">Welcome to Book of Crypto</h1>
+<h3 align="center">Cryptocurrency details,implemented using:</h3>
+
+- 🔭 Clean arhitecture **(use cases)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
