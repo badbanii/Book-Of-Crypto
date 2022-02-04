@@ -9,11 +9,13 @@
 
 - 🤝 Jetpack Compose **(UI/UX)**
 
+- 👨‍💻 JSON [(get JSON for every currency)]((get JSON for every currency))
+
 - 💬 RetroFit **(API for Crypto Information)**
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+- 📫 Optimized **(MultiDex,shrinked resources,minify,etc)**
+
+
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.framer.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="framer" width="40" height="40"/> </a> </p>
